@@ -6,7 +6,5 @@ interface User {
 function showStatus(user: User) : string | undefined{
     if(user.status) {
         return user.status;
-    } else {
-        return undefined;
     }
     }
